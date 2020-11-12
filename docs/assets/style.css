@@ -1,0 +1,42 @@
+:root {
+  --theme-hue: 250;
+  --theme-saturation: 50%;
+  --theme-lightness : 64%;
+
+  --sidebar-nav-strong-margin: 1.5em 0 0.5em;
+
+  --sidebar-width: 20rem;
+  --sidebar-nav-link-text-decoration--active: none;
+  --sidebar-nav-link-text-decoration--hover: none;
+  --sidebar-nav-link-transition: all var(--duration-fast);
+  --sidebar-nav-link-color--hover: hsl(var(--mono-hue), var(--mono-saturation), 64%);
+}
+
+.sidebar .app-name {
+  margin-bottom: .5rem;
+  transition: all var(--duration-fast);
+}
+.sidebar .app-name:hover {
+  opacity: .7;
+}
+.sidebar .app-name img {
+  width: 35%;
+}
+.sidebar .app-name h3 {
+  margin-top: .3rem;
+  margin-bottom: 0;
+}
+.sidebar .app-name .sub {
+  font-size: .9rem;
+  color: var(--sidebar-nav-link-color);
+  opacity: .5;
+}
+
+.tech-image {
+  width: 17px;
+}
+
+.top-1 {
+  position: relative;
+  top: 1px;
+}

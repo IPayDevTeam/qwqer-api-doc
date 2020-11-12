@@ -1,0 +1,14 @@
+{
+  "name": "qwqer-api-doc",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "docsify serve ./docs"
+  },
+  "repository": "git@github.com:IPayDevTeam/qwqer-api-doc.git",
+  "author": "Boris <bk@berweb.org>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}
